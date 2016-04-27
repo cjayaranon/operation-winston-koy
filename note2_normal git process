@@ -1,0 +1,10 @@
+git fetch origin
+git rebase origin/master
+
+if conflicts:
+	git status
+	resolve conflicts
+	git add <file>
+	git rebase --continue
+
+git push origin master

@@ -1,0 +1,32 @@
+yril@cyril-Compaq-620:~/Documents/ojt_Git$ git remote -v
+origin	git@github.com:heinrich-cruspero/test-repo.git (fetch)
+origin	git@github.com:heinrich-cruspero/test-repo.git (push)
+workspace	https://ceej_yaranon@bitbucket.org/ceej_yaranon/ceej.git (fetch)
+workspace	https://ceej_yaranon@bitbucket.org/ceej_yaranon/ceej.git (push)
+cyril@cyril-Compaq-620:~/Documents/ojt_Git$ git clone ^C
+cyril@cyril-Compaq-620:~/Documents/ojt_Git$ git@github.com:heinrich-cruspero/test-repo.git
+bash: git@github.com:heinrich-cruspero/test-repo.git: No such file or directory
+cyril@cyril-Compaq-620:~/Documents/ojt_Git$ git xlonw
+git: 'xlonw' is not a git command. See 'git --help'.
+
+Did you mean this?
+	clone
+cyril@cyril-Compaq-620:~/Documents/ojt_Git$ git clone git@github.com:heinrich-cruspero/test-repo.git
+Cloning into 'test-repo'...
+The authenticity of host 'github.com (192.30.252.120)' can't be established.
+RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,192.30.252.120' (RSA) to the list of known hosts.
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+Checking connectivity... done.
+cyril@cyril-Compaq-620:~/Documents/ojt_Git$ git fetch origin 
+Warning: Permanently added the RSA host key for IP address '192.30.252.130' to the list of known hosts.
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From github.com:heinrich-cruspero/test-repo
+ * [new branch]      master     -> origin/master
+cyril@cyril-Compaq-620:~/Documents/ojt_Git$ 
+
