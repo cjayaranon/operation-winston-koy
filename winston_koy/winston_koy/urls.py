@@ -22,6 +22,7 @@ admin.autodiscover()
 
 from .views import trainers_page
 
+
 urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^about/', TemplateView.as_view(template_name='about.html')),
