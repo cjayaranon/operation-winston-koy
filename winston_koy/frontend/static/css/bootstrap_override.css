@@ -1,0 +1,90 @@
+@font-face{
+    font-family: 'league_gothic_regular';
+    src: url('../fonts/LeagueGothic-Regular.otf');
+    letter-spacing: 20px;
+}
+
+@font-face{
+    font-family: 'league_gothic_italic';
+    src: url('../fonts/LeagueGothic-Italic.otf');
+}
+
+@font-face{
+    font-family: 'league_gothic_condensedRegular';
+    src: url('../fonts/LeagueGothic-CondensedRegular.otf');
+}
+
+@font-face{
+    font-family: 'league_gothic_condensedItalic';
+    src: url('../fonts/LeagueGothic-CondensedItalic.otf');
+}
+
+@font-face{
+    font-family: 'segoeUI';
+    src: url('../fonts/segoeuil.ttf');
+}
+
+.hero-unit{
+    font-family: league_gothic_regular;
+    background-color: #f6f6f6
+}
+
+.jumbotron{
+    background-size: contain;
+    background-color: #5d192d;
+    margin-bottom: 10px;
+}
+
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: segoeUI;
+    font-size: 16px;
+    margin: 0px;
+    word-break: break-all;
+    white-space: normal;
+    text-align: justify-all;
+}
+
+.page-header{
+    padding-top: -20px;
+    padding-bottom: 40px;
+    margin-top: 10px;
+    font-size: 45px;
+}
+
+.container-fluid{
+    padding-top: 12px;
+    padding-bottom: 20px;
+}
+
+.container{
+    margin: 30px;
+    margin-left: 60px;
+}
+
+.jumbotron .placeholder{
+    color: white;
+    text-align: center;
+    font-family: league_gothic_regular;
+}
+
+.media{
+    border-color: #555555;
+    border-width: 5px;
+}
+
+.col-md-6{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-top: 5px;
+}
+
+.container-fluid .expert_desc{
+    text-align: left;
+    border: inherit;
+    width: inherit;
+    height: inherit;
+}
