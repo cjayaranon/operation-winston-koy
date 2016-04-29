@@ -12,3 +12,12 @@ class AboutView(View):
 
 def trainers_page(request):
     return render(request, 'trainers.html')
+
+def header(request):
+    return render(request, 'header.html')
+
+def intro(request):
+    return render(request, 'intro.html')
+
+def testimonial(request):
+    return render(request, 'testimonial.html')
