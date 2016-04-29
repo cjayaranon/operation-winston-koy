@@ -20,10 +20,13 @@ from .views import AboutView
 
 admin.autodiscover()
 
-from .views import bootstrap_trial
+from .views import bootstrap_trial, header, intro, testimonial
 
 urlpatterns = patterns('',
     url(r'^admin/', admin.site.urls),
     url(r'^about/', TemplateView.as_view(template_name='about.html')),
     url(r'^bootstrap/', bootstrap_trial),
+    url(r'^header/', header),
+    url(r'^intro/', intro),
+    url(r'^testimonial/', testimonial),
 )

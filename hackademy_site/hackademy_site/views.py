@@ -11,3 +11,12 @@ class AboutView(View):
 
 def bootstrap_trial(request):
     return render(request, 'bootstrap_trial.html')
+
+def header(request):
+    return render(request, 'header.html')
+
+def intro(request):
+    return render(request, 'intro.html')
+
+def testimonial(request):
+    return render(request, 'testimonial.html')
