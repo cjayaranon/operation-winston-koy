@@ -20,11 +20,12 @@ from .views import AboutView
 
 admin.autodiscover()
 
-from .views import trainers_page
+from .views import trainers_page, trainer_profile
 
 
 urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^about/', TemplateView.as_view(template_name='about.html')),
-    url(r'^trainers/', trainers_page),
+    url(r'^trainers_page/', trainers_page),
+    url(r'^trainers/', trainer_profile),
 )

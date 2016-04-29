@@ -78,13 +78,7 @@ p{
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
     border-top: 5px;
-}
-
-.container-fluid .expert_desc{
-    text-align: left;
-    border: inherit;
-    width: inherit;
-    height: inherit;
+    height: 300px;
 }

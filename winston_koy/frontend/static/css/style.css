@@ -1,3 +1,11 @@
+$transition-duration: 0.8s;
+$transition-easing: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+$bounce-easing: cubic-bezier(0.175, 0.885, 0.320, 1.275);
+$closed-width: 200px;
+$closed-height: 80px;
+$opened-width: 400px;
+$opened-height: 160px;
+
 .btn.is-open ~ .description {
   opacity: 0; }
 
@@ -60,10 +68,10 @@
   .btn-back button:focus {
     outline: 0; }
   .btn-back button.yes {
-    background-color: #2196F3;
+    background-color: #5d192d;
     color: #fff; }
     .btn-back button.yes:hover {
-      background-color: #51adf6; }
+      background-color: #f4d7e0; }
   .btn-back button.no {
     color: #2196F3; }
     .btn-back button.no:hover {
