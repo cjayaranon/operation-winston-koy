@@ -134,7 +134,11 @@ div.slider2 figure {
 }
 
 .testimonials{
-
+  background-color: white;
+  padding-top: 50px;
+  height: 300px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 /* footer*/
