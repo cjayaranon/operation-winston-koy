@@ -21,14 +21,13 @@ from .views import AboutView
 
 admin.autodiscover()
 
-from .views import trainers_page,header, intro, testimonial
+from .views import trainers_page, trainer_profile
+>>>>>>> EDITED the html/css files related to the about page and trainers page including the python files
 
 
 urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^about/', TemplateView.as_view(template_name='about.html')),
-    url(r'^trainers/', trainers_page),
-    url(r'^header/', header),
-    url(r'^intro/', intro),
-    url(r'^testimonial/', testimonial),
+    url(r'^trainers_page/', trainers_page),
+    url(r'^trainers/', trainer_profile),
 )
