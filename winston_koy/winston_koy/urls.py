@@ -29,5 +29,5 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^about/', TemplateView.as_view(template_name='about.html')),
     url(r'^trainers_page/', trainers_page),
-    url(r'^trainers/', trainer_profile),
+    url(r'^trainers/$', trainer_profile),
 )
