@@ -15,3 +15,6 @@ def trainers_page(request):
 
 def trainer_profile(request):
     return render(request, 'course_trainer_profile.html')
+
+def contact_page(request):
+    return render(request, 'contact_us.html')
