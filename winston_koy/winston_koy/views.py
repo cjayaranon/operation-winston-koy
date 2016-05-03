@@ -18,3 +18,6 @@ def trainer_profile(request):
 
 def contact_page(request):
     return render(request, 'contact_us.html')
+
+def new_homepage(request):
+    return render(request, 'new_webpage.html')
